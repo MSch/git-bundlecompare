@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require 'bundler/github/compare_browser'
+
+Bundler::Github::CompareBrowser.main
