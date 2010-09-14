@@ -10,6 +10,8 @@ Gem::Specification.new do |s|
   s.homepage    = "http://github.com/MSch/bundler-github"
   s.summary     = "Open the GitHub compare view for updates in Gemfile.lock"
   s.description = <<-CONTENT
+== Git-bundlecompare
+
 Do you have git repositories as dependencies in your Gemfile? Do you have no idea what exactly changed after running bundle update?
 
 Don't despair, the solution is here!
