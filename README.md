@@ -20,7 +20,7 @@ Update your Gemfile as usual
 
     $ bundle update
 
-Open the GitHub compare view for every changed repository in your browser
+**Open the GitHub compare view for every changed repository in your browser**
 
     $ git bundlecompare
 
