@@ -9,7 +9,15 @@ Gem::Specification.new do |s|
   s.email       = ['martin@schuerrer.org']
   s.homepage    = "http://github.com/MSch/bundler-github"
   s.summary     = "Open GitHub compare view for a Gemfile.lock diff"
-  s.description = "Open GitHub compare view for a Gemfile.lock diff"
+  s.description = <<-CONTENT
+Do you have git repositories as dependencies in your Gemfile? Do you have no idea what exactly changed after running bundle update?
+
+Don't despair, the solution is here!
+
+> bundle update
+> git bundlecompare # Opens the GitHub compare view in your browser
+> git commit -a
+CONTENT
 
   s.required_rubygems_version = ">= 1.3.6"
   s.rubyforge_project         = "bundler-github"
