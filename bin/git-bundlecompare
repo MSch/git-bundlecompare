@@ -2,6 +2,6 @@
 
 require "bundler-github/utils"
 
-supress_warnings do
+suppress_warnings do
   system('git diff Gemfile.lock | ghbundlercompare')
 end
