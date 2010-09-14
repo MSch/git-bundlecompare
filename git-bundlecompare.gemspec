@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.authors     = ['Martin Schuerrer']
   s.email       = ['martin@schuerrer.org']
   s.homepage    = "http://github.com/MSch/bundler-github"
-  s.summary     = "Open GitHub compare view for a Gemfile.lock diff"
+  s.summary     = "Open the GitHub compare view for updates in Gemfile.lock"
   s.description = <<-CONTENT
 Do you have git repositories as dependencies in your Gemfile? Do you have no idea what exactly changed after running bundle update?
 
