@@ -14,9 +14,9 @@ Do you have git repositories as dependencies in your Gemfile? Do you have no ide
 
 Don't despair, the solution is here!
 
-> bundle update
-> git bundlecompare # Opens the GitHub compare view in your browser
-> git commit -a
+ $ bundle update
+ $ git bundlecompare # Opens the GitHub compare view in your browser
+ $ git commit -a
 CONTENT
 
   s.required_rubygems_version = ">= 1.3.6"
