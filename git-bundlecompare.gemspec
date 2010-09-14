@@ -10,15 +10,7 @@ Gem::Specification.new do |s|
   s.homepage    = "http://github.com/MSch/bundler-github"
   s.summary     = "Open the GitHub compare view for updates in Gemfile.lock"
   s.description = <<-CONTENT
-== Git-bundlecompare
-
-Do you have git repositories as dependencies in your Gemfile? Do you have no idea what exactly changed after running bundle update?
-
-Don't despair, the solution is here!
-
- $ bundle update
- $ git bundlecompare # Opens the GitHub compare view in your browser
- $ git commit -a
+After running bundle update, git-bundlecompare opens the GitHub compare view for each changed git repository.
 CONTENT
 
   s.required_rubygems_version = ">= 1.3.6"
