@@ -1,5 +1,13 @@
 #!/usr/bin/env ruby
 
-require 'bundler/github/compare_browser'
+require "bundler-github/utils"
+require "launchy"
 
-Bundler::Github::CompareBrowser.main
+regexp = /(GIT$\n   remote: .+github.com\/(.+).git$\n-  revision: (.+)$\n\+  revision: (.+)$)/
+diffs = ARGF.read.scan(regexp)
+diffs.each do |diff|
+  complete, remote, before, after = diff
+  url = "http://github.com/#{remote}/compare/#{before}...#{after}"
+  puts url
+  suppress_warnings { Launchy.open(url) }
+end
