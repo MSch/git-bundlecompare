@@ -1,0 +1,23 @@
+PATH
+  remote: .
+  specs:
+    git-bundlecompare (1.0.0)
+      bundler (>= 1.0.0)
+      launchy
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    configuration (1.1.0)
+    launchy (0.3.7)
+      configuration (>= 0.0.5)
+      rake (>= 0.8.1)
+    rake (0.8.7)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bundler (>= 1.0.0)
+  git-bundlecompare!
+  launchy

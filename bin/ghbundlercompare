@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 
-require "bundler-github/utils"
+require "git-bundlecompare/utils"
 require "launchy"
 
 regexp = /(GIT$\n   remote: .+github.com\/(.+).git$\n-  revision: (.+)$\n\+  revision: (.+)$)/

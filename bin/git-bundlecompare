@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 
-require "bundler-github/utils"
+require "git-bundlecompare/utils"
 
 suppress_warnings do
   system('git diff Gemfile.lock | ghbundlercompare')

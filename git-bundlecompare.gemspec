@@ -1,9 +1,9 @@
 # -*- encoding: utf-8 -*-
-require File.expand_path("../lib/bundler-github/version", __FILE__)
+require File.expand_path("../lib/git-bundlecompare/version", __FILE__)
 
 Gem::Specification.new do |s|
-  s.name        = "bundler-github"
-  s.version     = Bundler::Github::VERSION
+  s.name        = "git-bundlecompare"
+  s.version     = Git::Bundlecompare::VERSION
   s.platform    = Gem::Platform::RUBY
   s.authors     = ['Martin Schuerrer']
   s.email       = ['martin@schuerrer.org']
