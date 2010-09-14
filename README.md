@@ -5,12 +5,27 @@ Do you have git repositories as dependencies in your Gemfile? Do you have no ide
 
 Don't despair, the solution is here!
 
+
+Installation
+============
+
+It's easy!
+
+    gem install git-bundlecompare
+
+How to use
+==========
+
+Update your Gemfile as usual
+
     $ bundle update
 
 Open the GitHub compare view for every changed repository in your browser
+
     $ git bundlecompare
 
 Commit (or revert) your changes as usual
+
     $ git commit -a
 
 
